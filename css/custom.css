@@ -73,6 +73,8 @@
     border-radius: 20px;
     color: white;
     margin-top: 20px;
+    outline: none;
+    border: none;
 }
 
 .features-cont-after {
@@ -138,6 +140,35 @@
     display: inline-block;
     width: 50%;
     float: left;
+    text-align: left;
+    padding: 100px 50px 50px 50px;
+}
+
+.right-col h2 {
+    width: 60%;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.right-col p {
+    width: 80%;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.right-col a {
+    color: #41AFD0;
+    text-decoration: none;
+    border-bottom: 1px solid #41AFD0;
+    padding-bottom: 5px;
+}
+
+.right-col a img {
+    vertical-align: middle;
+}
+
+.reviews-custom {
+    padding-bottom: 300px;
 }
 
 .reviews-row {
@@ -176,7 +207,7 @@
 }
 
 .review:last-of-type {
-        margin-right: 0;
+    margin-right: 0;
 }
 
 .initials {
@@ -199,11 +230,7 @@
     font-size: 10px;
 }
 
-.container.sign-up-container {
-    position: relative;
-}
-
-.sign-up-row {
+/* .sign-up-row {
     display: inline-block;
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
@@ -213,26 +240,56 @@
     position: absolute;
     top: 0;
     left: 0;
+} */
+
+footer.container{
+    background-color: #0C1524;
+    padding-top: 200px;
+    position: relative;
 }
 
 .sign-up {
     display: inline-block;
-    width: 100%;
+    width: 800px;
+    margin-left: calc((100% - 800px) / 2);
+    margin-right: calc((100% - 800px) / 2);
+    text-align: center;
+    background-color: #21293C;
+    color: white;
+    position: absolute;
+    top: -100px;
+    left: 0;
     padding: 40px;
+}
+
+.sign-up h2 {
+    margin-bottom: 10px;
+}
+
+.sign-up p {
+    margin: 0 95px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.sign-up input {
+    width: 60%;
+    padding: 10px 0;
+    border-radius: 20px;
+    border: none;
+    margin-right: 10px;
+    padding-left: 15px;
 }
 
 .sign-up button {
     display: inline-block;
     background-color: #4FC5D3;
-    padding: 10px 65px;
+    padding: 10px 25px;
     border-radius: 20px;
     color: white;
     margin-top: 20px;
-}
-
-footer.container{
-    background-color: #0C1524;
-    padding-top: 200px;
+    outline: none;
+    border: none;
 }
 
 .footer-row {
@@ -330,6 +387,8 @@ footer.container{
     color: white;
     border: 1px solid white;
     padding: 12px 15px;
+    width: 30px;
+    height: 30px;
     border-radius: 30px;
     float: right;
     margin-left: 10px;
