@@ -106,12 +106,13 @@
     display: inline-block;
     width: 50%;
     float: left;
-    /* padding: 30px; */
+    padding: 30px;
     font-size: 12px;
 }
 
 .features img {
     margin-bottom: 15px;
+    height: 60px;
 }
 
 .features h2 {
@@ -136,12 +137,16 @@
     float: left;
 }
 
+.left-col img {
+    width: 90%;
+}
+
 .right-col {
     display: inline-block;
     width: 50%;
     float: left;
     text-align: left;
-    padding: 100px 50px 50px 50px;
+    padding: 100px 0 0 20px;
 }
 
 .right-col h2 {
@@ -312,7 +317,7 @@ footer.container{
 
 .column-1 {
     display: inline-block;
-    width: 28%;
+    width: 30%;
     vertical-align: top;
 }
 
@@ -331,9 +336,8 @@ footer.container{
 
 .column-2 {
     display: inline-block;
-    width: 15%;
+    width: 30%;
     vertical-align: top;
-    margin-right: 30px;
 }
 
 .column-2 img {
@@ -343,12 +347,11 @@ footer.container{
 .column-2 a {
     text-decoration: none;
     color: white;
-    line-height: 25px;
 }
 
 .column-3 {
     display: inline-block;
-    width: 15%;
+    width: 10%;
     vertical-align: top;
 }
 
@@ -362,7 +365,7 @@ footer.container{
 
 .column-4 {
     display: inline-block;
-    width: 15%;
+    width: 10%;
     vertical-align: top;
 }
 
@@ -376,9 +379,9 @@ footer.container{
 
 .column-5 {
     display: inline-block;
-    width: 20%;
+    width: 18%;
     vertical-align: top;
-    margin-right: 5px;
+    text-align: center;
 }
 
 .column-5 a {
@@ -386,10 +389,10 @@ footer.container{
     text-decoration: none;
     color: white;
     border: 1px solid white;
-    padding: 12px 15px;
     width: 30px;
     height: 30px;
     border-radius: 30px;
-    float: right;
+    line-height: 30px;
+    text-align: center;
     margin-left: 10px;
 }
