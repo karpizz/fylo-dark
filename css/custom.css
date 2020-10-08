@@ -82,7 +82,7 @@
     z-index: 1;
 }
 
-.features-cont::after {
+/* .features-cont::after {
     content: "";
     background-image: url(../images/bg-curvy-desktop.svg);
     width: 100%;
@@ -92,7 +92,7 @@
     bottom: -400px;
     left: 0;
     z-index: -1;
-}
+} */
 
 .features-row {
     display: inline-block;
